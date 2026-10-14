@@ -1,0 +1,14 @@
+# Texto: normaliza o fim de linha para CRLF neste projeto (Windows)
+* text=auto eol=crlf
+
+# Binarios: nunca converter
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+
+# Linguagens
+*.ps1 text eol=crlf
+*.html text eol=crlf
+*.md text eol=crlf
+.gitignore text eol=crlf
